@@ -1,0 +1,124 @@
+header {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.offscreen {
+  position: absolute;
+  left: -100000px;
+  top:auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+nav {
+  font-size: 1.25rem;
+  margin:1rem;
+  text-align:center;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+nav a:hover {
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  color: darkslategray;
+}
+
+nav i:hover {
+  transition-property: font-size;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+  font-size: 1.5rem;
+}
+
+body {
+  background-image:url('../images/bike_bridge.jpg');
+  background-size: cover;
+  height: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:active {
+  color: darkred;
+}
+
+nav a {
+  padding:1rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+h3 {
+  font-size: .8rem;
+}
+
+article {
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  float: left;
+  color: white;
+  width: 40%;
+}
+
+section img:hover {
+  transition:all 0.3s ease;
+  opacity:0.5;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+footer nav {
+  font-size: .75rem;
+}
+
+footer {
+  font-size: .75rem;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  float: left;
+}
+
+wrapper section{
+  color: black;
+  background: rgba(0, 0, 0, 0.5);
+  float: none;
+  display: inline;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
